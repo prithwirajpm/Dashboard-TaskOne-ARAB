@@ -1,9 +1,11 @@
 import './App.css';
+import DashboardHeader from './Components/DashboardHeader';
 
 function App() {
   return (
     <div className="App">
-      Dasboard
+    <DashboardHeader />
+     
     </div>
   );
 }
