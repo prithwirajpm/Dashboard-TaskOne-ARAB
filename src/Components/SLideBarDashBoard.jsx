@@ -99,6 +99,8 @@ function SLideBarDashBoard() {
           </div>
         </div>
       </aside>
+
+      {/* midrange */}
       <aside className="col-1 bg-white shadow smallSidebar mt-5 ms-3 me-3 rounded">
         <div className="w-100">
           <div className="d-flex justify-content-center">
@@ -146,7 +148,7 @@ function SLideBarDashBoard() {
           </div>
         </div>
       </aside>
-      <div>
+      <div className="col-10">
         {" "}
         <Cards />
       </div>

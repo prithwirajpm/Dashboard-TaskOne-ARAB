@@ -1,0 +1,27 @@
+.alinkClass{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.alinkClass:hover{
+    background-color:#ADD8E6;
+}
+
+.bells{
+    display: block;
+}
+
+.bellsTop{
+    display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+   
+.bells{
+    display: none;
+}
+.bellsTop{
+    display: block;
+}
+  }
