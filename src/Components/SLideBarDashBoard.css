@@ -1,0 +1,47 @@
+.buttonLinksTwo{
+    width: 176px;
+    background-color: white;
+    border: solid 1px rgb(222, 220, 220);
+}
+.buttonLinksTwo:hover{
+    text-decoration: none;
+    background-color: #ADD8E6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.buttonLinkSmallTwo{
+    background-color: white;
+    border: solid 1px rgb(222, 220, 220);
+    font-size: 20px;
+   
+}
+.buttonLinkSmallTwo:hover{
+    background-color: #ADD8E6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    font-size: 25px;  
+}
+.smallSidebar {
+    display: none;
+}
+.largeSlidebar{
+    display: block;
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1300px) {
+    .smallSidebar {
+        display: block;
+    }
+    .largeSlidebar{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .largeSlidebar{
+        display: none;
+    }
+  }
+  

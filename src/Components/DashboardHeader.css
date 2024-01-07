@@ -23,3 +23,54 @@
     mask-image: url('../assets/shap.png'); /* Use the correct path to your mask image */
     mask-mode: alpha; /* Set the mask mode accordingly */
   }
+
+.LogoSection{
+  display: none;
+}
+
+.mobileNavbar{
+  display: none;
+}
+
+.logosectionSec{
+  display: block;
+}
+.mobileMenu{
+  display:none;
+}
+.mobileMenuNew{
+    display:block;
+} 
+
+@media screen and (min-width: 1300px) and (max-width: 1800px) {
+  .mobileMenuNew{
+    display:none;
+} 
+}
+  @media screen and (min-width: 700px) and (max-width: 1300px) {
+    .LogoSection{
+        display: block;
+    }
+    .LogoSectionMain{
+      display: none;
+    }
+    .mobileMenuNew{
+      display:none;
+  } 
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+  .LogoSection{
+      display: none;
+  }
+  .mobileNavbar{
+    display: block;
+  }
+  .LogoSectionMain{
+    display: none;
+  }
+  .logosectionSec{
+    display: none;
+  }
+}
+
