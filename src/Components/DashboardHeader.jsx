@@ -49,7 +49,9 @@ function DashboardHeader() {
                 }}
                 className="rounded-circle"
               />
-              <b className="ms-1">XYZ Enterprises Pvt.Ltd</b>
+              <b className="ms-2" style={{ fontSize: "13px" }}>
+                XYZ Enterprises Pvt.Ltd
+              </b>
             </span>
 
             <span
@@ -74,7 +76,7 @@ function DashboardHeader() {
               className="ms-5"
             />
           </div>
-          <div className="ms-auto">
+          <div className="ms-auto mt-2">
             <span
               style={{ backgroundColor: "white" }}
               className="p-2 shadow rounded"
@@ -109,15 +111,18 @@ function DashboardHeader() {
               className="btn text-primary"
               onClick={() => handleBars("mobileMenuNew")}
             >
-              <i class="fa-solid fa-bars"></i>
+              <i class="fa-solid fa-bars" style={{ fontSize: "25px" }}></i>
             </button>
           </div>
         </div>
       </div>
 
-      {/* menus */}
+      {/*mobile menus */}
       <div className={`${show}`}>
-        <div className="col-12 bg-white position-absolute top-0">
+        <div
+          className="col-12 bg-white position-absolute top-0"
+          style={{ zIndex: "100" }}
+        >
           <div className="shadow py-3 ">
             <div className="d-flex justify-content-end">
               <button className="btn" onClick={() => handleBars("mobileMenu")}>
